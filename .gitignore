@@ -1,0 +1,8 @@
+.idea/
+*__pycache__/
+*.egg-info/
+.DS_Store
+
+# ignore output dirs
+*/output/
+*/input/
