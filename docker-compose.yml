@@ -3,8 +3,6 @@ version: '3.8'
 services:
   grobid:
     image: grobid/grobid:0.9.0-full
-    container_name: grobid  # 可选，固定容器名称
-    restart: unless-stopped  # 可选，自动重启策略
     ports:
       - "8070:8070"
     deploy:
